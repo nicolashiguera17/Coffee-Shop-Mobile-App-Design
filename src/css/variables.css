@@ -1,0 +1,21 @@
+:root{
+    --color-1: #C67C4E;
+    --color-2: #EDD6C8;
+    --color-3: #313131;
+    --color-4: #E3E3E3;
+    --color-5: #F9F2ED;
+    --color-6: #FFFFFF;
+    --color-7: #000000;
+}
+@font-face {
+    font-family: "Sora-SemiBold";
+    src: url("../storage/fonts/Sora/static/Sora-SemiBold.ttf");
+}
+@font-face {
+    font-family: "Sora-Regular";
+    src: url("../storage/fonts/Sora/static/Sora-Regular.ttf");
+}
+@font-face {
+    font-family: "Sora-Light";
+    src: url("../storage/fonts/Sora/static/Sora-Light.ttf");
+}
