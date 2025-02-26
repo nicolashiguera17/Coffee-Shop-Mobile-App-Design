@@ -33,3 +33,39 @@ header{
     width: 30px;
 }
 /******************************/
+/*********** Footer ************/
+.seccion__cuadro{
+    position: absolute;
+    bottom: 0px;
+    background: var(--color-6);
+    width: 100%;
+    height: 40%;
+    border-radius: 40px 40px 0px 0px;
+}
+.seccion__cuadro img{
+    color: var(--color-4);
+    width: 45px;
+    height: 5px;
+    margin: 16px 202px 15px 202px;
+}
+.seccion__cuadro .titulo{
+    color: var(--color-9);
+    font-family: "Sora-SemiBold";
+    font-size: 16px;
+    text-align: center;
+}
+.seccion__cuadro .repartidor1{
+    color: var(--color-8);
+    font-family: "Sora-Regular";
+    font-size: 12px;
+    text-align: center;
+    margin: 7px 90px 0px 0px;
+}
+.seccion__cuadro .repartidor2{
+    color: var(--color-9);
+    font-family: "Sora-SemiBold";
+    font-size: 12px;
+    text-align: center;
+    margin: -14.7px 0px 15px 71px;
+}
+/******************************/
