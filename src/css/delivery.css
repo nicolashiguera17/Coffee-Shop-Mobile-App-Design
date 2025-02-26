@@ -42,11 +42,12 @@ header{
     height: 40%;
     border-radius: 40px 40px 0px 0px;
 }
-.seccion__cuadro img{
-    color: var(--color-4);
+.seccion__cuadro .indicador1{
+    background: var(--color-4);
     width: 45px;
     height: 5px;
-    margin: 16px 202px 15px 202px;
+    margin: 16px 165px 15px 165px;
+    border-radius: 16px;
 }
 .seccion__cuadro .titulo{
     color: var(--color-9);
@@ -67,5 +68,34 @@ header{
     font-size: 12px;
     text-align: center;
     margin: -14.7px 0px 15px 71px;
+}
+.seccion__cuadro .indicador2{
+    background: var(--color-11);
+    width: 71.25px;
+    height: 4px;
+    border-radius: 16px;
+    margin: 16px 30px 15px 30px;
+}
+.seccion__cuadro .indicador3{
+    background: var(--color-11);
+    width: 71.25px;
+    height: 4px;
+    border-radius: 16px;
+    margin: -19px 110px 0px 110px;
+}
+.seccion__cuadro .indicador4{
+    background: var(--color-11);
+    width: 71.25px;
+    height: 4px;
+    border-radius: 16px;
+    margin: -3.8px 190px 15px 190px;
+
+}
+.seccion__cuadro .indicador5{
+    background: var(--color-4);
+    width: 71.25px;
+    height: 4px;
+    border-radius: 16px;
+    margin: -19px 270px 15px 270px;
 }
 /******************************/
