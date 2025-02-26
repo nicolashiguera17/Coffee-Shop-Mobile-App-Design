@@ -1,0 +1,23 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: brown;
+}
+.detail-item{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.detail-item a{
+    background-color: beige;
+    width: 24px;
+    height: 24px;
+    
+}
