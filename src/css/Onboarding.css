@@ -1,0 +1,17 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.cafe {
+    height: 468px;
+    width: 702;
+    
+}
+
