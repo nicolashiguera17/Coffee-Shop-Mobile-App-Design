@@ -7,10 +7,10 @@
 }
 
 header{
-    height: 280px;
+    height: 260px;
     background: linear-gradient(to bottom left, #111111, #313131  );
     justify-content: left;
-    padding: 24px 24px 0px 24px ;
+    padding: 32px 24px 0px 24px ;
 }
 
 .localizacion{
@@ -23,7 +23,7 @@ header{
     font-family: "Sora-Regular";
     font-size: 12px;
     color: var(--color-8);
-    padding-bottom: 8px;
+    padding-bottom: 12px;
 
 
 }
@@ -32,6 +32,7 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 
 }
 .informacion__usuario img{
@@ -50,13 +51,13 @@ header{
 .form__busqueda {
     overflow: hidden;
     display: flex;
-    gap: 13px;
+    gap: 16px;
     justify-content: space-between;
+    margin-top: 10px;
 }
 
 .input__logo {
     flex: 1;
-    /* background: orange; */
     position: relative;
     display: flex;
     justify-content: left;
@@ -74,7 +75,6 @@ header{
 .form__busqueda input[type="text"] {
     box-sizing: content-box;
     background: linear-gradient(to left, rgba(162, 162, 162, 0.1) -90%, #2A2A2A 45%);
-
     flex: 1;
     height: 100%;
     font-family: "Sora-Regular";
@@ -98,3 +98,13 @@ header{
     height: 52px;
     border-radius: 10px;
 }
+.promo{
+    margin-top: 24px;
+    width: 100%;
+    height: 160px;
+    background-image: url(../storage/img/Banner\ 1.png);
+    position: relative;
+    background-size: cover;
+}
+
+
