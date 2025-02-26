@@ -19,5 +19,11 @@ header{
     background-color: beige;
     width: 24px;
     height: 24px;
-    
+}
+.detail-item p{
+    background-color: antiquewhite;
+    width: 49;
+    height: 19;
+    font-family: "Sora-SemiBold";
+    font-size: 16;
 }
