@@ -54,29 +54,34 @@ header{
     gap: 16px;
     justify-content: space-between;
     margin-top: 10px;
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
 }
 
 .input__logo {
     flex: 1;
     position: relative;
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     align-items: center;
+  
 }
 
 .input__logo::before {
-
     content: url(../storage/img/Search-white.png);
     position: absolute;
-    padding-left: 16px;
-    object-fit: none;
+    padding-left: 14px;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
 }
 
 .form__busqueda input[type="text"] {
-    box-sizing: content-box;
+    width: 100%;
+    box-sizing: border-box;
     background: linear-gradient(to left, rgba(162, 162, 162, 0.1) -90%, #2A2A2A 45%);
-    flex: 1;
-    height: 100%;
+    height: 54px;
     font-family: "Sora-Regular";
     font-size: 14px;
     color: var(--color-5);
@@ -84,27 +89,70 @@ header{
     outline: none;
     border-radius: 10px;
     padding: 0 50px 0 44px;
-
 }
 
 .form__busqueda input[type="text"]::placeholder {
     color: var(--color-8);
 }
 
-.boton__filtro button{
-    background-color: var(--color-10);
-    border: none;
-    width: 52px;
-    height: 52px;
-    border-radius: 10px;
+.boton__filtro {
+    display: flex;
+    align-items: center;
 }
-.promo{
+
+.boton__filtro button {
+    display: flex;
+    background-color: var(--color-10);
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 54px;
+    height: 54px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.boton__filtro button img {
+    width: 20px;
+    height: 20px;
+    position: static;
+}
+
+.promo {
     margin-top: 24px;
     width: 100%;
-    height: 160px;
+    height: 140px;
     background-image: url(../storage/img/Banner\ 1.png);
     position: relative;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 24px;
+    border-radius: 20px;
+ 
 }
 
+.promo p {
+    background-color: var(--color-11);
+    font-family: "Sora-SemiBold";
+    color: var(--color-6);
+    font-size: 14px;
+    padding: 4px 7px;
+    border-radius: 7px;
+    width: fit-content;
+    top: 13px;
+    position: absolute;
+    
+}
+
+.promo strong {
+    font-size: 32px;
+    font-family: "Sora-SemiBold";
+    width: fit-content;
+    color: var(--color-6);
+    background-image: url(../storage/img/Linea\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 0% 110%;
+}
 
