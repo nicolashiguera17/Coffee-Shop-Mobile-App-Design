@@ -45,5 +45,56 @@ header{
     font-family: "Sora-Semibold";
     color: var(--color-9);
     font-size: 14px;
+}
 
+.form__busqueda {
+    overflow: hidden;
+    display: flex;
+    gap: 13px;
+    justify-content: space-between;
+}
+
+.input__logo {
+    flex: 1;
+    /* background: orange; */
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.input__logo::before {
+
+    content: url(../storage/img/Search-white.png);
+    position: absolute;
+    padding-left: 16px;
+    object-fit: none;
+}
+
+.form__busqueda input[type="text"] {
+    box-sizing: content-box;
+    background: linear-gradient(to left, rgba(162, 162, 162, 0.1) -90%, #2A2A2A 45%);
+
+    flex: 1;
+    height: 100%;
+    font-family: "Sora-Regular";
+    font-size: 14px;
+    color: var(--color-5);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 0 50px 0 44px;
+
+}
+
+.form__busqueda input[type="text"]::placeholder {
+    color: var(--color-8);
+}
+
+.boton__filtro button{
+    background-color: var(--color-10);
+    border: none;
+    width: 52px;
+    height: 52px;
+    border-radius: 10px;
 }
