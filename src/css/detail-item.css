@@ -53,8 +53,32 @@ main{
 }
 
 .frio p{
-    background-color: 
-    width: ;
-    height: ;
-    margin: 4px 0px 0px 0px ;
+    display: flex;
+    width: 46px;
+    height: 14px;
+    margin: 4px 0px 0px 24px ;
+    font-size: "Sora-Regular";
+    font-family: var(--color-3) ;
+}
+.imagenes_2 img{
+    display: flex;
+    background-color: #EDEDED;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin: 0px 120px 0px 0px ;
+    border-radius: 9px ;
+}
+
+.imagenes_2 .delivery{
+    display: flex;
+    margin: 0px 140px 0px 0px ;
+}
+.imagenes_2 .coffee-grain{
+    display: flex;
+    margin: -40px 0px 0px 55px;
+}
+.imagenes_2 .milk{
+    display: flex;
+    margin: -40px 0px 0px 110px ;
 }
