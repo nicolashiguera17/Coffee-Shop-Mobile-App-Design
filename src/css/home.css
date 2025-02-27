@@ -311,3 +311,47 @@ li:active a {
     font-family: "Sora-Semibold" !important;
     color: var(--color-6) !important;
 }
+
+/*************FOTER*****************/
+
+footer{
+    margin-top: 20px;
+    background-color: var(--color-6);
+    z-index: 10;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 56px;
+}
+
+.seccion__footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 56px 34px;
+    gap: 56px;
+}
+
+.seccion__footer img{
+    height: 24px;
+    width: 24px;
+}
+
+.seleccionado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+}
+
+.seleccion__baja{
+    height: 5px !important;
+    width: 10px !important;
+    padding-top: -20px;
+    margin-left: 7.4px;
+}
