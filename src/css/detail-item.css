@@ -199,6 +199,13 @@ details[open] summary {
     box-shadow: none; 
     transform: translateY(2px);  
 }
+.buton button:nth-child(1):focus {
+    background-color: #eeb592; 
+    box-shadow: none; 
+    transform: translateY(2px); 
+    outline: none;
+}
+
 
 .buton button:nth-child(2) {
     background-color: white; 
@@ -226,6 +233,13 @@ details[open] summary {
     box-shadow: none; 
     transform: translateY(2px);  
 }
+.buton button:nth-child(2):focus {
+    background-color: #eeb592; 
+    box-shadow: none; 
+    transform: translateY(2px); 
+    outline: none;
+}
+
 
 .buton button:nth-child(3) {
     background-color: white; 
@@ -252,6 +266,13 @@ details[open] summary {
     box-shadow: none; 
     transform: translateY(2px);  
 }
+.buton button:nth-child(3):focus {
+    background-color: #eeb592; 
+    box-shadow: none; 
+    transform: translateY(2px); 
+    outline: none;
+}
+
 .section_final{
 
     display: flex;
