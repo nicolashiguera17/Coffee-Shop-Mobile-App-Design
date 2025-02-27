@@ -32,13 +32,22 @@
     height: 24;
     margin: 0px 20px 0px 0px ;
 }
-.imagen img{
-    display: flex;
+.imagen{
+    background-color: #C67C4E;
     width: 327px;
     height: 202px;
-    margin: 24px 0px 0px 23px ;
-    border-radius: 20px;
+    border-radius: 16px;
+    margin: 0px 0px 0px 23px ;
+
+
 }
+.imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill; 
+    border-radius: 16px;
+}
+
 .texto p {
     display: flex;
     font-family: "Sora-SemiBold";
@@ -63,13 +72,13 @@ main{
     color: #A2A2A2;
 }
 .imagenes_2 img{
-    display: flex;
-    background-color: #EDEDED;
+    display: flex;;
     display: flex;
     width: 40px;
     height: 40px;
     margin: 0px 120px 0px 0px ;
     border-radius: 9px ;
+    
 }
 
 .imagenes_2 .delivery{
@@ -281,12 +290,12 @@ details[open] summary {
     font-size: 18px;
     font-family: "Sora-Regular";
 }
-.elfinal button{
+
+.elfinal {
     font-family: "Sora-SemiBold";
     background-color: var(--color-1);
     color: var(--color-6);
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 40px;
     width: 200px;
     height: auto;
     border-radius: 17px;
@@ -294,7 +303,18 @@ details[open] summary {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none; 
+    font-weight: bold;
+    cursor: pointer; 
 }
-.final span{
-    color: #C67C4E;
+
+
+.elfinal:hover {
+    background-color: #eeb592;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.elfinal:active {
+    background-color: #eeb592;
+    transform: translateY(2px);
 }
