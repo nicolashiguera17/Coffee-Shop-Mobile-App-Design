@@ -1,0 +1,28 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*********** Header ************/
+.seccion__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 34px 48px 36.5px 24px;
+}
+.regreso{
+    display: flex;
+    background: transparent;
+    border: none;
+}
+.regreso img{
+    width: 24px;
+    height: 24px;
+}
+.titulo__header{
+    color: var(--color-3);
+    font-family: "Sora-SemiBold";
+    font-size: 20px
+}
+/******************************/
