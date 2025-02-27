@@ -58,7 +58,8 @@ main{
     height: 14px;
     margin: 4px 0px 0px 24px ;
     font-size: "Sora-Regular";
-    font-family: var(--color-3) ;
+    font-family: #A2A2A2 ;
+    opacity: 100%;
 }
 .imagenes_2 img{
     display: flex;
@@ -81,4 +82,26 @@ main{
 .imagenes_2 .milk{
     display: flex;
     margin: -40px 0px 0px 110px ;
+}
+
+.imagenes_3 img{
+    width: 20px;
+    height: 20px;
+    margin: -16px 0px 0px 24px;
+}
+.imagenes_3 h1{
+    width: 28px;
+    height: 20px;
+    font-size: 16px;
+    font-family: "Sora-Light";
+    margin: -20px 0px 0px 48px ;
+}
+.imagenes_3 span{
+    display: flex;
+    width: 62px;
+    height: 20px;
+    margin: -18px 0px 0px 80px;
+    font-size: 12px;
+    font-family: "Sora-Regular";
+    color: #A2A2A2;
 }
