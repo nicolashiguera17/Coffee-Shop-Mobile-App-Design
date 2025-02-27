@@ -25,6 +25,41 @@
     font-family: "Sora-SemiBold";
     font-size: 20px
 }
+
+.tipo__pedido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 24px;
+}
+
+.opciones {
+    display: flex;
+    background-color: var(--color-11);
+    padding: 4px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    justify-content: center;
+}
+
+.tipo__pedido a {
+    flex: 1;
+    text-align: center;
+    color: var(--color-9);
+    font-family: "Sora-Regular";
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
+.tipo__pedido .activo {
+    background-color: var(--color-1);
+    color: var(--color-6);
+}
 /******************************/
 
 body{
@@ -42,9 +77,8 @@ body{
 .informacion__producto{
     display: flex;
     flex-direction: row;
-
-    margin: 0 24px;
     justify-content: space-between;
+    gap: 16px;
 }
 .contenedor__informacion{
     display: flex;
