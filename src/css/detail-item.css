@@ -57,9 +57,10 @@ main{
     width: 46px;
     height: 14px;
     margin: 4px 0px 0px 24px ;
-    font-size: "Sora-Regular";
-    font-family: #A2A2A2 ;
+    font-size: 12px;
+    font-family: "Sora-Regular" ;
     opacity: 100%;
+    color: #A2A2A2;
 }
 .imagenes_2 img{
     display: flex;
