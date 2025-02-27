@@ -1,0 +1,72 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*********************MAIN*****************/
+
+.contenedor__producto{
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+}
+
+.informacion__producto{
+    display: flex;
+    flex-direction: row;
+
+    margin: 0 24px;
+    justify-content: space-between;
+}
+.contenedor__informacion{
+    display: flex;
+    gap: 16px;
+
+}
+.icono__cafe{
+    height: 54px;
+    width: 54px;
+    left: 0;
+}
+
+.textos__informacionProducto{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.textos__informacionProducto strong{
+    font-family: "Sora-SemiBold";
+    font-size: 16px;
+    color: var(--color-9);
+}
+.textos__informacionProducto p{
+    font-family: "Sora-Regular";
+    font-size: 12px;
+    color: var(--color-10);
+}
+
+.cantidad__productos{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.cantidad__productos button{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.cantidad__productos p{
+    font-family: "Sora-SemiBold";
+    font-size: 14px;
+    color: var(--color-8);
+}
+
