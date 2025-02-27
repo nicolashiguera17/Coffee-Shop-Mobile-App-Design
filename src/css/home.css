@@ -4,8 +4,10 @@
     margin: 0;
     box-sizing: border-box;
     font-family : "Inter_18pt-Regular";
+
 }
 
+/***********************HEADER********************************/
 header{
     height: 260px;
     background: linear-gradient(to bottom left, #111111, #313131  );
@@ -155,12 +157,14 @@ header{
     background-repeat: no-repeat;
     background-position: 0% 110%;
 }
-
+/********************************************/
 /********************MAIN*******************/
 
+main{
+    margin: 0 24px;
+}
 .nav__categoria {
-    /* background: green; */
-    margin: 90px 24px 0;
+    margin: 90px 0 0;
     display: flex;
     overflow-x: scroll;
     gap: 16px;
@@ -176,7 +180,6 @@ header{
 }
 
 .nav__categoria li a {
-    /* background: yellow; */
     text-decoration: none;
     color: var(--color-6);
     font-family: "Sora-SemiBold";
@@ -202,3 +205,107 @@ li:active a {
 }
 
 
+.seccion__productos{
+    flex-wrap: wrap;
+    display: flex;
+
+    margin-top: 16px;
+    justify-content: space-between;
+    gap: 9px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.article__contenedor{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-13);
+    width: 47%;
+    max-width: 156px;
+    position: relative;
+    flex-direction: column;
+    height: 238px;
+    padding: 8px;
+    border-radius: 12px;
+    
+
+}
+.article__contenedor a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.article__contenedor a img{
+    width: 140px;
+    max-width: 100%;
+    object-fit: fill;
+    border-radius: 14px;
+    height: 128px;
+    overflow: hidden;
+}
+
+.div__informacion {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+
+.div__informacion strong{
+    font-family: "Sora-SemiBold";
+    font-size: 16px;
+    color: var(--color-12);
+}
+
+.div__informacion p{
+    font-family: "Sora-Regular";
+    font-size: 12px;
+    color: var(--color-8);
+}
+
+
+.boton__adicionProducto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8px;
+    align-items: center;
+}
+.boton__adicionProducto strong{
+    font-family: "Sora-SemiBold";
+    font-size: 18px;
+}
+.boton__adicionProducto a img{
+    width: 32px;
+    height: 32px;
+    border-radius: 12px;
+}
+
+.valoracion { 
+    position: absolute !important; 
+    top: 0px !important; 
+    right: -1px !important; 
+    display: flex !important;
+    align-items: center !important;
+    background: rgba(0, 0, 0, 0.3) !important; 
+    padding: 4px 6px !important;
+    border-radius: 74px 13px 0px 27px / 0px 0px 0px 21px !important;
+
+} 
+
+.valoracion img {
+    width: 12px !important; 
+    height: 12px !important;
+    margin-right: 4px !important;
+}
+
+.valoracion p {
+    font-size: 8px !important;
+    font-family: "Sora-Semibold" !important;
+    color: var(--color-6) !important;
+}
