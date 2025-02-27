@@ -106,13 +106,21 @@ main{
     font-family: "Sora-Regular";
     color: #A2A2A2;
 }
-
+.linea img{
+    margin: 19px 0px 0px 30px ;
+}
+.aparatado b{
+    display: flex;
+    font-size: 16px;
+    font-family: "Sora-SemiBold";
+    margin: 10px 0px 0px 23px ;
+}
 .aparatado p{
     width: 327px;
     height: 63px;
     font-size: 14px ;
     font-family: "Sora-Light";
-    margin: 8px 0px 0px 24px;
+    margin: 10px 0px 0px 24px;
     color: #A2A2A2;
 }
 .aparatado summary{
@@ -134,4 +142,12 @@ main{
 
 details[open] summary {
     color: tan; 
+}
+.Size h1{
+    background-color: #C67C4E;
+    width: ;
+    height: ;
+    font-size: 16px;
+    font-family: "Sora-SemiBold";
+    margin: 0px 0px 0px 0px ;
 }
