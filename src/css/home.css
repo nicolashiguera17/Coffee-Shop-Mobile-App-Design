@@ -156,3 +156,49 @@ header{
     background-position: 0% 110%;
 }
 
+/********************MAIN*******************/
+
+.nav__categoria {
+    /* background: green; */
+    margin: 90px 24px 0;
+    display: flex;
+    overflow-x: scroll;
+    gap: 16px;
+}
+
+.nav__categoria li {
+    background: var(--color-8);
+    border-radius: 7px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__categoria li a {
+    /* background: yellow; */
+    text-decoration: none;
+    color: var(--color-6);
+    font-family: "Sora-SemiBold";
+    font-size: 14px;
+    padding: 0 8px;
+    white-space: nowrap;
+}
+
+li.select {
+    background: var(--color-10);
+}
+
+li.select a {
+    color: var(--color-6);
+}
+
+li:active {
+    background: var(--color-10);
+}
+
+li:active a {
+    color: var(--color-6);
+}
+
+
