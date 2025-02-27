@@ -5,13 +5,15 @@
     box-sizing: border-box;
 }
 
-
+body{
+    background-color: #F9F9F9;
+}
 /*********************MAIN*****************/
 
 .contenedor__producto{
     display: flex;
     flex-direction: column;
-
+    margin: 0 24px;
     gap: 16px;
 }
 
@@ -70,3 +72,39 @@
     color: var(--color-8);
 }
 
+
+.descuento {
+    margin: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-6);
+    border-radius: 12px;
+    padding: 18px 16px;
+    max-width: 350px;
+    
+}
+
+.seccion__descuento_1 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.seccion__descuento_1 a{
+    color: var(--color-3);
+    margin: 0;
+    font-family: "Sora-SemiBold";
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.descuento button img{
+    height: 20px;
+    width: 20px;
+}
+
+.descuento button{
+    background: transparent;
+    border-color: transparent;
+}
