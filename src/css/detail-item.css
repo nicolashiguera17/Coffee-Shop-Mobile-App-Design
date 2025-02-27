@@ -8,7 +8,6 @@ header{
     background-color: brown;
 }
 .detail-item{
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
@@ -16,14 +15,25 @@ header{
 }
 
 .detail-item a{
-    background-color: beige;
     width: 24px;
     height: 24px;
 }
 .detail-item p{
-    background-color: antiquewhite;
+
     width: 49;
     height: 19;
     font-family: "Sora-SemiBold";
     font-size: 16;
+}
+
+.detail-item img {
+    width: 24;
+    height: 24;
+}
+.imagen img{
+    display: flex;
+    background-color: aquamarine;
+    width: 327px;
+    height: 202px;
+    margin: 0px 0px 0px 0px ;
 }
