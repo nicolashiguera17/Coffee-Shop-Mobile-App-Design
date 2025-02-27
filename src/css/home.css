@@ -6,7 +6,9 @@
     font-family : "Inter_18pt-Regular";
 
 }
-
+body{
+    background-color: var(--color-13);
+}
 /***********************HEADER********************************/
 header{
     height: 260px;
@@ -219,7 +221,7 @@ li:active a {
 .article__contenedor{
     display: flex;
     flex-direction: column;
-    background-color: var(--color-13);
+    background-color: var(--color-6);
     width: 47%;
     max-width: 156px;
     position: relative;
