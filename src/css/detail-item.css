@@ -5,8 +5,7 @@
     box-sizing: border-box;
 }
 /***********************************/
-header{
-}
+
 .detail-item{
     display: flex;
     justify-content: space-between;
@@ -20,7 +19,6 @@ header{
     margin: 0px 0px 0px 15px ;
 }
 .detail-item p{
-
     width: 49;
     height: 19;
     font-family: "Sora-SemiBold";
@@ -152,6 +150,11 @@ details[open] summary {
     font-size: 16px;
     font-family: "Sora-SemiBold";
     margin: -55px 0px 0px 25px ;
+    margin-top: -70;
+    margin-top: ‒70px;
+    margin-top: -80px;
+    margin-top: -90;
+
 }
 .buton{
     border-bottom: 20px;
@@ -162,14 +165,14 @@ details[open] summary {
     margin: 16px 0px 0px 25px ;
 }
 .buton button:nth-child(1) {
-    background-color: white; /* Color de fondo blanco */
+    background-color: white; 
     width: 96px;
     height: 41px;
     font-size: 14px;
     font-family: "Sora-Regular", sans-serif;
     border: none; 
     border-radius: 12px;
-    color: #333; /* Color del texto */
+    color: #333; 
     cursor: pointer; 
     transition: all 0.3s ease; 
     padding: 10px 15px; 
@@ -178,18 +181,18 @@ details[open] summary {
 }
 
 .buton button:nth-child(1):hover {
-    background-color: #eeb592; /* Color al pasar el mouse */
+    background-color: #eeb592; 
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
 }
 
 .buton button:nth-child(1):active {
-    background-color: #eeb592; /* Color al presionar el botón */
+    background-color: #eeb592; 
     box-shadow: none; 
     transform: translateY(2px);  
 }
 
 .buton button:nth-child(2) {
-    background-color: white; /* Color de fondo blanco */
+    background-color: white; 
     width: 96px;
     height: 41px;
     font-size: 14px;
@@ -205,18 +208,18 @@ details[open] summary {
 }
 
 .buton button:nth-child(2):hover {
-    background-color: #eeb592; /* Color al pasar el mouse */
+    background-color: #eeb592; 
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
 }
 
 .buton button:nth-child(2):active {
-    background-color: #eeb592; /* Color al presionar el botón */
+    background-color: #eeb592; 
     box-shadow: none; 
     transform: translateY(2px);  
 }
 
 .buton button:nth-child(3) {
-    background-color: white; /* Color de fondo blanco */
+    background-color: white; 
     width: 96px;
     height: 41px;
     font-size: 14px;
@@ -231,17 +234,17 @@ details[open] summary {
 }
 
 .buton button:nth-child(3):hover {
-    background-color: #eeb592; /* Color al pasar el mouse */
+    background-color: #eeb592; 
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
 }
 
 .buton button:nth-child(3):active {
-    background-color: #eeb592; /* Color al presionar el botón */
+    background-color: #eeb592; 
     box-shadow: none; 
     transform: translateY(2px);  
 }
 .section_final{
-    /* background-color: blue; */
+
     display: flex;
     flex-direction: row;
     width: auto;
