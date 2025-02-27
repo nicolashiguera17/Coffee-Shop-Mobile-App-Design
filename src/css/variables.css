@@ -6,6 +6,7 @@
     --color-5: #F9F2ED;
     --color-6: #FFFFFF;
     --color-7: #000000;
+    --color-8: hsl(0, 0%, 93%, 0.35);
 }
 @font-face {
     font-family: "Sora-SemiBold";
