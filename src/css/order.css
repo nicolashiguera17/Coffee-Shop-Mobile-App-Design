@@ -60,6 +60,73 @@
     background-color: var(--color-1);
     color: var(--color-6);
 }
+
+.direccion__informacion{
+    display: flex;
+    flex-direction: column;
+    margin: 24px 24px 16px ;
+    word-wrap: nowrap;
+}
+.direccion__informacion strong{
+    font-family: "Sora-SemiBold";
+    font-size: 16px;
+    color: var(--color-9);
+    
+}
+.direccion__informacion b{
+    display: flex;
+    font-family: "Sora-SemiBold";
+    font-size: 14px;
+    color: var(--color-3);
+    padding-top: 24px;
+}
+.direccion__informacion p{
+    display: flex;
+    font-family: "Sora-Regular";
+    font-size: 12px;
+    color: var(--color-10);
+    padding-top: 4px;
+}
+.opciones__edicion{
+    display: flex;
+    flex-direction: row;
+    padding-top: 16px;
+    gap: 8px;
+ 
+    align-items: center;
+}
+.opciones__edicion img{
+    width: 14px;
+    height: 14px;
+}
+.opciones__edicion p{
+    font-family: "Sora-Regular";
+    font-size: 12px;
+    color: var(--color-3);
+}
+.opcion__1{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 12px;
+    border-radius: 20px;
+    border: 1px solid var(--color-10);
+}
+
+
+
+.opcion__2{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 12px;
+    border-radius: 20px;
+    border: 1px solid var(--color-10);
+}
 /******************************/
 
 body{
@@ -72,6 +139,7 @@ body{
     flex-direction: column;
     margin: 0 24px;
     gap: 16px;
+    flex: 1;
 }
 
 .informacion__producto{
@@ -89,6 +157,7 @@ body{
     height: 54px;
     width: 54px;
     left: 0;
+    border-radius: 8px;
 }
 
 .textos__informacionProducto{
@@ -130,19 +199,22 @@ body{
 
 
 .descuento {
-    margin: 16px 24px;
+    
+    margin: 16px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: var(--color-6);
     border-radius: 12px;
     padding: 18px 16px;
-    max-width: 350px;
+    max-width: 400px;
+    width: calc(100% - 48px);
     
 }
 
 .seccion__descuento_1 {
     display: flex;
+    
     align-items: center;
     gap: 16px;
 }
