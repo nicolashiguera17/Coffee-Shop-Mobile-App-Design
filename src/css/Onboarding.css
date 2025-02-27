@@ -1,0 +1,104 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+
+display: flex;
+
+}
+
+.cafe{
+
+display: flex;
+
+object-fit: cover;
+width: 115%;
+
+height: 90%;
+
+}
+
+body{
+
+background-color: black;
+margin-bottom: 220px;
+
+}
+
+.titulo {
+
+position: absolute;
+
+top: 500px;
+
+text-align: center;
+
+color: var( --color-6);
+
+font-family: "Sora-SemiBold";
+
+font-size: 20px;
+
+display:flex
+
+}
+
+.bienvenida {
+
+position: absolute;
+
+top: 670px;
+
+text-align:center;
+
+color: var(--color-8);
+
+font-size: 14px;
+
+height: 15px;
+
+margin: 0px 20px 0px 10px;
+
+font-family: "Sora-Regular" ;
+
+font-weight: normal;
+
+
+
+}
+
+.boton{
+
+background: var(--color-1);
+
+width: 360px;
+
+height: 56px;
+
+border: none;
+
+border-radius: 16px;
+
+margin: 32px 32px;
+
+
+
+}
+
+.h1-boton{
+
+background: var(--color-);
+
+font-family: "Sora-SemiBold";
+
+font-size: 17px;
+
+color: var(--color-6);
+
+ padding: 18px;
+ 
+}
