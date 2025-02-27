@@ -106,3 +106,32 @@ main{
     font-family: "Sora-Regular";
     color: #A2A2A2;
 }
+
+.aparatado p{
+    width: 327px;
+    height: 63px;
+    font-size: 14px ;
+    font-family: "Sora-Light";
+    margin: 8px 0px 0px 24px;
+    color: #A2A2A2;
+}
+.aparatado summary{
+    font-family: "Sora-SemiBold";
+    font-size: 14px;
+}
+
+.no-arrow summary {
+    list-style: none; 
+    cursor: pointer; 
+    margin: -27px 0px 0px 205px ;
+}
+
+
+.no-arrow summary {
+    font-weight: bold;
+    color: #C67C4E;
+}
+
+details[open] summary {
+    color: tan; 
+}
