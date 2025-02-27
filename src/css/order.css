@@ -1,0 +1,132 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*********** Header ************/
+.seccion__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 34px 48px 36.5px 24px;
+}
+.regreso{
+    display: flex;
+    background: transparent;
+    border: none;
+}
+.regreso img{
+    width: 24px;
+    height: 24px;
+}
+.titulo__header{
+    color: var(--color-3);
+    font-family: "Sora-SemiBold";
+    font-size: 20px
+}
+/******************************/
+
+body{
+    background-color: #F9F9F9;
+}
+/*********************MAIN*****************/
+
+.contenedor__producto{
+    display: flex;
+    flex-direction: column;
+    margin: 0 24px;
+    gap: 16px;
+}
+
+.informacion__producto{
+    display: flex;
+    flex-direction: row;
+
+    margin: 0 24px;
+    justify-content: space-between;
+}
+.contenedor__informacion{
+    display: flex;
+    gap: 16px;
+
+}
+.icono__cafe{
+    height: 54px;
+    width: 54px;
+    left: 0;
+}
+
+.textos__informacionProducto{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.textos__informacionProducto strong{
+    font-family: "Sora-SemiBold";
+    font-size: 16px;
+    color: var(--color-9);
+}
+.textos__informacionProducto p{
+    font-family: "Sora-Regular";
+    font-size: 12px;
+    color: var(--color-10);
+}
+
+.cantidad__productos{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.cantidad__productos button{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.cantidad__productos p{
+    font-family: "Sora-SemiBold";
+    font-size: 14px;
+    color: var(--color-8);
+}
+
+
+.descuento {
+    margin: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-6);
+    border-radius: 12px;
+    padding: 18px 16px;
+    max-width: 350px;
+    
+}
+
+.seccion__descuento_1 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.seccion__descuento_1 a{
+    color: var(--color-3);
+    margin: 0;
+    font-family: "Sora-SemiBold";
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.descuento button img{
+    height: 20px;
+    width: 20px;
+}
+
+.descuento button{
+    background: transparent;
+    border-color: transparent;
+}
