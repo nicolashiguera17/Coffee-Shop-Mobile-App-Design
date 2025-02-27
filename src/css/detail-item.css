@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+/***********************************/
 header{
 }
 .detail-item{
@@ -47,6 +48,7 @@ header{
     color: #000000;
     margin: 16px 0px 0px 24px ;
 }
+/**************************************/
 main{
     display: flex;
     justify-content: space-between;
@@ -127,7 +129,7 @@ main{
     font-family: "Sora-SemiBold";
     font-size: 14px;
 }
-
+/***************************************/
 .no-arrow summary {
     list-style: none; 
     cursor: pointer; 
@@ -237,4 +239,59 @@ details[open] summary {
     background-color: #eeb592; /* Color al presionar el botón */
     box-shadow: none; 
     transform: translateY(2px);  
+}
+.section_final{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    margin-bottom: 30px;
+}
+
+.no-arrow{
+    width: 327px;
+    height: 63px;
+    font-size: 14px;
+    font-family: "Sora-Light";
+    color: #A2A2A2;
+    margin: 0px 0px 0px 24px;
+}
+
+.no-arrow > summary {
+    padding-left: -10px;
+                    padding-left: -10px;
+                    padding-left: 1opx;
+                    margin-left: 177px;
+}
+
+.final p {
+    font-size: 13px;
+    font-family: "Sora-Regular";
+    color: #909090;
+    padding-bottom: 7px;
+}
+.final h4{
+    font-size: 18px;
+    font-family: "Sora-Regular";
+}
+.elfinal button{
+    font-family: "Sora-SemiBold";
+    background-color: var(--color-1);
+    color: var(--color-6);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 200px;
+    height: auto;
+    border-radius: 17px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.final span{
+    color: #C67C4E;
 }
