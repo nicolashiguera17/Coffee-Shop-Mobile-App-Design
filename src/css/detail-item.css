@@ -144,10 +144,97 @@ details[open] summary {
     color: tan; 
 }
 .Size h1{
-    background-color: #C67C4E;
-    width: ;
-    height: ;
+    display: flex;
+    width: 34;
+    height: 24;
     font-size: 16px;
     font-family: "Sora-SemiBold";
-    margin: 0px 0px 0px 0px ;
+    margin: -55px 0px 0px 25px ;
+}
+.buton{
+    border-bottom: 20px;
+    width: 320px;
+    height: 81px;
+    font-size: 14px;
+    font-family: "Sora-Regular";
+    margin: 16px 0px 0px 25px ;
+}
+.buton button:nth-child(1) {
+    background-color: white; /* Color de fondo blanco */
+    width: 96px;
+    height: 41px;
+    font-size: 14px;
+    font-family: "Sora-Regular", sans-serif;
+    border: none; 
+    border-radius: 12px;
+    color: #333; /* Color del texto */
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    padding: 10px 15px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    margin: 0px 10px 0px 0px ;
+}
+
+.buton button:nth-child(1):hover {
+    background-color: #eeb592; /* Color al pasar el mouse */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+}
+
+.buton button:nth-child(1):active {
+    background-color: #eeb592; /* Color al presionar el botón */
+    box-shadow: none; 
+    transform: translateY(2px);  
+}
+
+.buton button:nth-child(2) {
+    background-color: white; /* Color de fondo blanco */
+    width: 96px;
+    height: 41px;
+    font-size: 14px;
+    font-family: "Sora-Regular", sans-serif;
+    border: none; 
+    border-radius: 12px;
+    color: #333; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    padding: 10px 15px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    margin: 0px 10px 0px 0px ;
+}
+
+.buton button:nth-child(2):hover {
+    background-color: #eeb592; /* Color al pasar el mouse */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+}
+
+.buton button:nth-child(2):active {
+    background-color: #eeb592; /* Color al presionar el botón */
+    box-shadow: none; 
+    transform: translateY(2px);  
+}
+
+.buton button:nth-child(3) {
+    background-color: white; /* Color de fondo blanco */
+    width: 96px;
+    height: 41px;
+    font-size: 14px;
+    font-family: "Sora-Regular", sans-serif;
+    border: none; 
+    border-radius: 12px;
+    color: #333; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    padding: 10px 15px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.buton button:nth-child(3):hover {
+    background-color: #eeb592; /* Color al pasar el mouse */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+}
+
+.buton button:nth-child(3):active {
+    background-color: #eeb592; /* Color al presionar el botón */
+    box-shadow: none; 
+    transform: translateY(2px);  
 }
