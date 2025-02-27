@@ -8,6 +8,10 @@
 }
 body{
     background-color: var(--color-13);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0;
 }
 /***********************HEADER********************************/
 header{
@@ -162,8 +166,10 @@ header{
 /********************************************/
 /********************MAIN*******************/
 
+
 main{
     margin: 0 24px;
+    flex: 1;
 }
 .nav__categoria {
     margin: 90px 0 0;
@@ -325,18 +331,27 @@ footer{
     padding-top: 20px;
     padding-bottom: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 56px;
 }
 
 .seccion__footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
     padding: 10px 56px 34px;
-    gap: 56px;
+    gap: 35px;
 }
 
+.seccion__footer a {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
 .seccion__footer img{
     height: 24px;
     width: 24px;
