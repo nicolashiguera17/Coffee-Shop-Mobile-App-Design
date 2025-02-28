@@ -236,3 +236,65 @@ body{
     background: transparent;
     border-color: transparent;
 }
+
+.resumen__pago {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 24px 24px;
+
+}
+.resumen__pago strong{
+    font-family: "Sora-SemiBold";
+    font-size: 16px;
+    color: var(--color-9);
+}
+
+.seccion__resumen {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.seccion__precio p{
+    font-family: "Sora-Regular";
+    font-size: 14px;
+    color: var(--color-3);
+
+}
+.seccion__precio b{
+    font-family: "Sora-Semibold";
+    font-size: 14px;
+    color: var(--color-9);
+
+}
+
+.seccion__precio, 
+.seccion__delivery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.precio__delivery  {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.seccion__delivery p{
+    font-family: "Sora-Regular";
+    font-size: 14px;
+    color: var(--color-3);
+}
+
+.tachado {
+    text-decoration: line-through;
+    font-family: "Sora-Regular";
+    font-size: 14px;
+    color: var(--color-8);
+}
+
+.precio__delivery b{
+    font-family: "Sora-SemiBold";
+    font-size: 14px;
+    color: var(--color-9);
+}
