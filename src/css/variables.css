@@ -6,7 +6,13 @@
     --color-5: #F9F2ED;
     --color-6: #FFFFFF;
     --color-7: #000000;
-    --color-8: hsl(0, 0%, 93%, 0.35);
+    --color-8: #A2A2A2;
+    --color-9: #D8D8D8;
+    --color-10: #C67C4E;
+    --color-11: #ED5151;
+    --color-12: #242424;
+    --color-13: #F9F9F9;
+    --color-14: hsl(0, 0%, 93%, 0.35);
 }
 @font-face {
     font-family: "Sora-SemiBold";
@@ -19,4 +25,5 @@
 @font-face {
     font-family: "Sora-Light";
     src: url("../storage/fonts/Sora/static/Sora-Light.ttf");
-}
+}     
+
