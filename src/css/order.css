@@ -1,0 +1,378 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*********** Header ************/
+.seccion__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 34px 48px 36.5px 24px;
+}
+.regreso{
+    display: flex;
+    background: transparent;
+    border: none;
+}
+.regreso img{
+    width: 24px;
+    height: 24px;
+}
+.titulo__header{
+    color: var(--color-3);
+    font-family: "Sora-SemiBold";
+    font-size: 20px
+}
+
+.tipo__pedido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 24px;
+}
+
+.opciones {
+    display: flex;
+    background-color: var(--color-11);
+    padding: 4px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    justify-content: center;
+}
+
+.tipo__pedido a {
+    flex: 1;
+    text-align: center;
+    color: var(--color-9);
+    font-family: "Sora-Regular";
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
+.tipo__pedido .activo {
+    background-color: var(--color-1);
+    color: var(--color-6);
+}
+
+.direccion__informacion{
+    display: flex;
+    flex-direction: column;
+    margin: 24px 24px 16px ;
+    word-wrap: nowrap;
+}
+.direccion__informacion strong{
+    font-family: "Sora-SemiBold";
+    font-size: 16px;
+    color: var(--color-9);
+    
+}
+.direccion__informacion b{
+    display: flex;
+    font-family: "Sora-SemiBold";
+    font-size: 14px;
+    color: var(--color-3);
+    padding-top: 24px;
+}
+.direccion__informacion p{
+    display: flex;
+    font-family: "Sora-Regular";
+    font-size: 12px;
+    color: var(--color-10);
+    padding-top: 4px;
+}
+.opciones__edicion{
+    display: flex;
+    flex-direction: row;
+    padding-top: 16px;
+    gap: 8px;
+ 
+    align-items: center;
+}
+.opciones__edicion img{
+    width: 14px;
+    height: 14px;
+}
+.opciones__edicion p{
+    font-family: "Sora-Regular";
+    font-size: 12px;
+    color: var(--color-3);
+}
+.opcion__1{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 12px;
+    border-radius: 20px;
+    border: 1px solid var(--color-10);
+}
+
+
+
+.opcion__2{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 12px;
+    border-radius: 20px;
+    border: 1px solid var(--color-10);
+}
+/******************************/
+
+body{
+    background-color: #F9F9F9;
+    padding-bottom: 155px;
+    overflow-y: auto;
+}
+/*********************MAIN*****************/
+
+.contenedor__producto{
+    display: flex;
+    flex-direction: column;
+    margin: 0 24px;
+    gap: 16px;
+    flex: 1;
+}
+
+.informacion__producto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+}
+.contenedor__informacion{
+    display: flex;
+    gap: 16px;
+
+}
+.icono__cafe{
+    height: 54px;
+    width: 54px;
+    left: 0;
+    border-radius: 8px;
+}
+
+.textos__informacionProducto{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.textos__informacionProducto strong{
+    font-family: "Sora-SemiBold";
+    font-size: 16px;
+    color: var(--color-9);
+}
+.textos__informacionProducto p{
+    font-family: "Sora-Regular";
+    font-size: 12px;
+    color: var(--color-10);
+}
+
+.cantidad__productos{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.cantidad__productos button{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.cantidad__productos p{
+    font-family: "Sora-SemiBold";
+    font-size: 14px;
+    color: var(--color-8);
+}
+
+
+.descuento {
+    
+    margin: 16px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-6);
+    border-radius: 12px;
+    padding: 18px 16px;
+    max-width: 400px;
+    width: calc(100% - 48px);
+    
+}
+
+.seccion__descuento_1 {
+    display: flex;
+    
+    align-items: center;
+    gap: 16px;
+}
+
+.seccion__descuento_1 a{
+    color: var(--color-3);
+    margin: 0;
+    font-family: "Sora-SemiBold";
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.descuento button img{
+    height: 20px;
+    width: 20px;
+}
+
+.descuento button{
+    background: transparent;
+    border-color: transparent;
+}
+
+.resumen__pago {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 24px 24px;
+
+}
+.resumen__pago strong{
+    font-family: "Sora-SemiBold";
+    font-size: 16px;
+    color: var(--color-9);
+}
+
+.seccion__resumen {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.seccion__precio p{
+    font-family: "Sora-Regular";
+    font-size: 14px;
+    color: var(--color-3);
+
+}
+.seccion__precio b{
+    font-family: "Sora-Semibold";
+    font-size: 14px;
+    color: var(--color-9);
+
+}
+
+.seccion__precio, 
+.seccion__delivery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.precio__delivery  {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.seccion__delivery p{
+    font-family: "Sora-Regular";
+    font-size: 14px;
+    color: var(--color-3);
+}
+
+.tachado {
+    text-decoration: line-through;
+    font-family: "Sora-Regular";
+    font-size: 14px;
+    color: var(--color-8);
+}
+
+.precio__delivery b{
+    font-family: "Sora-SemiBold";
+    font-size: 14px;
+    color: var(--color-9);
+}
+
+/***************FOTER************/
+
+footer {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    height: 155px;
+}
+
+
+.pago {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+
+.info__pago {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    
+}
+
+.info__pago img {
+    width: 20px; 
+    height: 20px;
+}
+
+
+.texto__infoPago b{
+    font-family: "Sora-SemiBold";
+    font-size: 14px;
+    color: var(--color-9);
+}
+
+.texto__infoPago p{
+    font-family: "Sora-SemiBold";
+    font-size: 12px;
+    color: var(--color-1);
+}
+
+.texto__infoPago{
+    display: flex;
+    flex-direction: column;
+}
+
+.pago > img {
+    width: 24px;
+    height: 24px;
+}
+
+.ordenar__pedido {
+    background-color: var(--color-1);
+    color: var(--color-6);
+    padding: 16px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 8px 0 20px 0;
+}
+
+.ordenar__pedido a{
+    text-decoration: none;
+    font-family: "Sora-SemiBold";
+    font-size: 16px;
+    color: var(--color-6);
+}
