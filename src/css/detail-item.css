@@ -1,0 +1,344 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/***********************************/
+
+.detail-item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.detail-item a{
+    width: 24px;
+    height: 24px;
+    margin: 0px 0px 0px 15px ;
+}
+.detail-item p{
+    width: 49;
+    height: 19;
+    font-family: "Sora-SemiBold";
+    font-size: 16;
+    margin: 0px 0px 0px 0px ;
+    line-height: 120%;
+}
+
+.detail-item img {
+    width: 24;
+    height: 24;
+    margin: 0px 20px 0px 0px ;
+}
+.imagen{
+    background-color: #C67C4E;
+    width: 327px;
+    height: 202px;
+    border-radius: 16px;
+    margin: 0px 0px 0px 23px ;
+
+
+}
+.imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill; 
+    border-radius: 16px;
+}
+
+.texto p {
+    display: flex;
+    font-family: "Sora-SemiBold";
+    font-size: 20px;
+    color: #000000;
+    margin: 16px 0px 0px 24px ;
+}
+/**************************************/
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.frio p{
+    display: flex;
+    width: 46px;
+    height: 14px;
+    margin: 4px 0px 0px 24px ;
+    font-size: 12px;
+    font-family: "Sora-Regular" ;
+    opacity: 100%;
+    color: #A2A2A2;
+}
+.imagenes_2 img{
+    background-color: hsl(0, 0%, 93%, 0.35);
+    display: flex;;
+    display: flex;
+    width: 30px;
+    height: 40px;
+    margin: 0px 150px 0px 0px ;
+    border-radius: 9px ;
+    
+}
+
+.imagenes_2 .delivery{
+    display: flex;
+    margin: 0px 140px 0px 0px ;
+}
+.imagenes_2 .coffee-grain{
+    display: flex;
+    margin: -40px 0px 0px 55px;
+}
+.imagenes_2 .milk{
+    display: flex;
+    margin: -40px 0px 0px 110px ;
+}
+
+.imagenes_3 img{
+    width: 20px;
+    height: 20px;
+    margin: -16px 0px 0px 24px;
+}
+.imagenes_3 h1{
+    width: 28px;
+    height: 20px;
+    font-size: 16px;
+    font-family: "Sora-Light";
+    margin: -20px 0px 0px 48px ;
+}
+.imagenes_3 span{
+    display: flex;
+    width: 62px;
+    height: 20px;
+    margin: -18px 0px 0px 80px;
+    font-size: 12px;
+    font-family: "Sora-Regular";
+    color: #A2A2A2;
+}
+.linea img{
+    width: 327px;
+    margin: 19px 0px 0px 30px ;
+}
+.aparatado b{
+    display: flex;
+    font-size: 16px;
+    font-family: "Sora-SemiBold";
+    margin: 10px 0px 0px 23px ;
+}
+.aparatado p{
+    width: 327px;
+    height: 63px;
+    font-size: 14px ;
+    font-family: "Sora-Light";
+    margin: 10px 0px 0px 24px;
+    color: #A2A2A2;
+}
+.aparatado summary{
+    font-family: "Sora-SemiBold";
+    font-size: 14px;
+}
+/***************************************/
+.no-arrow summary {
+    list-style: none; 
+    cursor: pointer; 
+    margin: -27px 0px 0px 205px ;
+}
+
+
+.no-arrow summary {
+    font-weight: bold;
+    color: #C67C4E;
+}
+
+details[open] summary {
+    color: tan; 
+}
+.Size h1{
+    display: flex;
+    width: 34;
+    height: 24;
+    font-size: 16px;
+    font-family: "Sora-SemiBold";
+    margin: -55px 0px 0px 25px ;
+    margin-top: -70;
+    margin-top: ‒70px;
+    margin-top: -80px;
+    margin-top: -90;
+
+}
+.buton{
+    border-bottom: 20px;
+    width: 320px;
+    height: 81px;
+    font-size: 14px;
+    font-family: "Sora-Regular";
+    margin: 16px 0px 0px 25px ;
+}
+.buton button:nth-child(1) {
+    background-color: white; 
+    width: 96px;
+    height: 41px;
+    font-size: 14px;
+    font-family: "Sora-Regular", sans-serif;
+    border: none; 
+    border-radius: 12px;
+    color: #333; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    padding: 10px 15px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    margin: 0px 10px 0px 0px ;
+}
+
+.buton button:nth-child(1):hover {
+    background-color: #C67C4E; 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+}
+
+.buton button:nth-child(1):active {
+    background-color: #F9F2ED; 
+    box-shadow: none; 
+    transform: translateY(2px);  
+}
+.buton button:nth-child(1):focus {
+    background-color: #eeb592; 
+    box-shadow: none; 
+    transform: translateY(2px); 
+    outline: none;
+}
+
+
+.buton button:nth-child(2) {
+    background-color: white; 
+    width: 96px;
+    height: 41px;
+    font-size: 14px;
+    font-family: "Sora-Regular", sans-serif;
+    border: none; 
+    border-radius: 12px;
+    color: #333; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    padding: 10px 15px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    margin: 0px 10px 0px 0px ;
+}
+
+.buton button:nth-child(2):hover {
+    background-color: #C67C4E; 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+}
+
+.buton button:nth-child(2):active {
+    background-color: #eeb592; 
+    box-shadow: none; 
+    transform: translateY(2px);  
+}
+.buton button:nth-child(2):focus {
+    background-color: #eeb592; 
+    box-shadow: none; 
+    transform: translateY(2px); 
+    outline: none;
+}
+
+
+.buton button:nth-child(3) {
+    background-color: white; 
+    width: 96px;
+    height: 41px;
+    font-size: 14px;
+    font-family: "Sora-Regular", sans-serif;
+    border: none; 
+    border-radius: 12px;
+    color: #333; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    padding: 10px 15px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.buton button:nth-child(3):hover {
+    background-color: #C67C4E; 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+}
+
+.buton button:nth-child(3):active {
+    background-color: #eeb592; 
+    box-shadow: none; 
+    transform: translateY(2px);  
+}
+.buton button:nth-child(3):focus {
+    background-color: #eeb592; 
+    box-shadow: none; 
+    transform: translateY(2px); 
+    outline: none;
+}
+
+.section_final{
+
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    margin-bottom: 30px;
+}
+
+.no-arrow{
+    width: 327px;
+    height: 63px;
+    font-size: 14px;
+    font-family: "Sora-Light";
+    color: #A2A2A2;
+    margin: 0px 0px 0px 24px;
+}
+
+.no-arrow > summary {
+    padding-left: -10px;
+                    padding-left: -10px;
+                    padding-left: 1opx;
+                    margin-left: 177px;
+}
+
+.final p {
+    font-size: 13px;
+    font-family: "Sora-Regular";
+    color: #909090;
+    padding-bottom: 7px;
+}
+.final h4{
+    font-size: 18px;
+    font-family: "Sora-Regular";
+    color:#C67C4E;
+}
+
+.elfinal {
+    font-family: "Sora-SemiBold";
+    background-color: var(--color-1);
+    color: var(--color-6);
+    padding: 20px 40px;
+    width: 200px;
+    height: auto;
+    border-radius: 17px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; 
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+
+.elfinal:hover {
+    background-color: #eeb592;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.elfinal:active {
+    background-color: #eeb592;
+    transform: translateY(2px);
+}
