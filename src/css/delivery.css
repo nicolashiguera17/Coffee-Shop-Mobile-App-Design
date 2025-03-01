@@ -1,0 +1,173 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*********** Header ************/
+header{
+    justify-content: space-between;
+}
+.boton__regresar{
+    position: absolute;
+    top: 16px;
+    left: 24px;
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+}
+.boton__regresar img{
+    width: 30px;
+}
+.boton__gps{
+    position: absolute;
+    top: 16px;
+    right: 24px;
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+}
+.boton__gps img{
+    width: 30px;
+}
+/******************************/
+/*********** Footer ************/
+.seccion__cuadro{
+    position: absolute;
+    bottom: 0px;
+    background: var(--color-6);
+    width: 100%;
+    height: 40%;
+    border-radius: 40px 40px 0px 0px;
+}
+.seccion__cuadro .indicador1{
+    background: var(--color-4);
+    width: 45px;
+    height: 5px;
+    margin: 16px 200px 15px 200px;
+    border-radius: 16px;
+}
+.seccion__cuadro .titulo{
+    color: var(--color-9);
+    font-family: "Sora-SemiBold";
+    font-size: 16px;
+    text-align: center;
+}
+.seccion__cuadro .repartidor1{
+    color: var(--color-8);
+    font-family: "Sora-Regular";
+    font-size: 12px;
+    text-align: center;
+    margin: 7px 90px 0px 0px;
+}
+.seccion__cuadro .repartidor2{
+    color: var(--color-9);
+    font-family: "Sora-SemiBold";
+    font-size: 12px;
+    text-align: center;
+    margin: -14.7px 0px 25px 71px;
+}
+.seccion__cuadro .indicador2{
+    background: var(--color-11);
+    width: 71.25px;
+    height: 4px;
+    border-radius: 16px;
+    margin: 16px 30px 15px 55px;
+}
+.seccion__cuadro .indicador3{
+    background: var(--color-11);
+    width: 71.25px;
+    height: 4px;
+    border-radius: 16px;
+    margin: -19px 110px 0px 145px;
+}
+.seccion__cuadro .indicador4{
+    background: var(--color-11);
+    width: 71.25px;
+    height: 4px;
+    border-radius: 16px;
+    margin: -3.8px 190px 15px 230px;
+}
+.seccion__cuadro .indicador5{
+    background: var(--color-4);
+    width: 71.25px;
+    height: 4px;
+    border-radius: 16px;
+    margin: -19px 270px 15px 320px;
+}
+.seccion__cuadro2{
+    background: var(--color-6);
+    width: 360px;
+    height: 77px;
+    margin: 10px 43px 0px 43px;
+    border: 1px solid var(--color-4);
+    border-radius: 15px;
+}
+.seccion__cuadro2 .cuadro3{
+    position: absolute;
+    background: transparent;
+    width: 56px;
+    height: 56px;
+    margin: 10px 12px 0px 12px;
+    border: 1px solid var(--color-4);
+    border-radius: 12px;
+}
+.seccion__cuadro2 .pedido{
+    position: absolute;
+    top: 27px;
+    left: 27px;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+}
+.seccion__cuadro2 .titulo__cuadro-pedido{
+    color: var(--color-9);
+    font-family: "Sora-SemiBold";
+    font-size: 15px;
+    text-align: center;
+    margin: 5px 20px 0px 0px;
+}
+.seccion__cuadro2 .texto__cuadro-pedido{
+    color: var(--color-8);
+    font-family: "Sora-Light";
+    font-size: 13px;
+    line-height: 20px;
+    margin: 7px 0px 0px 89.5px;
+}
+.seccion__cuadro .hombre{
+    width: 56px;
+    height: 56px;
+    margin: 14px 43px 0px 43px;
+    border-radius: 14px;
+}
+.seccion__cuadro .nombre__hombre{
+    color: var(--color-9);
+    font-family: "Sora-SemiBold";
+    font-size: 15px;
+    text-align: center;
+    margin: -50px 75px 0px 0px;
+}
+.seccion__cuadro .puesto__hombre{
+    color: var(--color-8);
+    font-family: "Sora-Light";
+    font-size: 13px;
+    text-align: center;
+    margin: 4px 110px 0px 0px;
+}
+.cuadro__telefono{
+    position: absolute;
+    background: transparent;
+    width: 44px;
+    height: 44px;
+    margin: -45px 360px 0px 360px;
+    border: 1px solid var(--color-4);
+    border-radius: 12px;
+}
+.cuadro__telefono .telefono{
+    width: 24px;
+    height: 24px;
+    margin: 9px 9px 0px 9px;
+}
+/******************************/
