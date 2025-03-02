@@ -36,7 +36,7 @@
 
 .opciones {
     display: flex;
-    background-color: var(--color-11);
+    background-color: var(--color-16);
     padding: 4px;
     border-radius: 12px;
     width: 100%;
@@ -47,7 +47,7 @@
 .tipo__pedido a {
     flex: 1;
     text-align: center;
-    color: var(--color-9);
+    color: var(--color-12);
     font-family: "Sora-Regular";
     font-size: 16px;
     text-decoration: none;
@@ -70,7 +70,7 @@
 .direccion__informacion strong{
     font-family: "Sora-SemiBold";
     font-size: 16px;
-    color: var(--color-9);
+    color: var(--color-12);
     
 }
 .direccion__informacion b{
@@ -84,7 +84,7 @@
     display: flex;
     font-family: "Sora-Regular";
     font-size: 12px;
-    color: var(--color-10);
+    color: var(--color-8);
     padding-top: 4px;
 }
 .opciones__edicion{
@@ -112,7 +112,7 @@
     align-items: center;
     padding: 3px 12px;
     border-radius: 20px;
-    border: 1px solid var(--color-10);
+    border: 1px solid var(--color-8);
 }
 
 
@@ -125,7 +125,7 @@
     align-items: center;
     padding: 3px 12px;
     border-radius: 20px;
-    border: 1px solid var(--color-10);
+    border: 1px solid var(--color-8);
 }
 /******************************/
 
@@ -172,12 +172,12 @@ body{
 .textos__informacionProducto strong{
     font-family: "Sora-SemiBold";
     font-size: 16px;
-    color: var(--color-9);
+    color: var(--color-12);
 }
 .textos__informacionProducto p{
     font-family: "Sora-Regular";
     font-size: 12px;
-    color: var(--color-10);
+    color: var(--color-8);
 }
 
 .cantidad__productos{
@@ -196,7 +196,7 @@ body{
 .cantidad__productos p{
     font-family: "Sora-SemiBold";
     font-size: 14px;
-    color: var(--color-8);
+    color: var(--color-15);
 }
 
 
@@ -249,7 +249,7 @@ body{
 .resumen__pago strong{
     font-family: "Sora-SemiBold";
     font-size: 16px;
-    color: var(--color-9);
+    color: var(--color-12);
 }
 
 .seccion__resumen {
@@ -266,7 +266,7 @@ body{
 .seccion__precio b{
     font-family: "Sora-Semibold";
     font-size: 14px;
-    color: var(--color-9);
+    color: var(--color-12);
 
 }
 
@@ -298,7 +298,7 @@ body{
 .precio__delivery b{
     font-family: "Sora-SemiBold";
     font-size: 14px;
-    color: var(--color-9);
+    color: var(--color-12);
 }
 
 /***************FOTER************/
@@ -341,7 +341,7 @@ footer {
 .texto__infoPago b{
     font-family: "Sora-SemiBold";
     font-size: 14px;
-    color: var(--color-9);
+    color: var(--color-12);
 }
 
 .texto__infoPago p{
